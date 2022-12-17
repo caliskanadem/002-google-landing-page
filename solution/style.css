@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  width: 100%;
+  white-space: nowrap;
+}
+header {
+  width: 100%;
+  padding: 15px 15px 0 15px;
+}
+.header-left {
+  float: left;
+  opacity: 0.8;
+}
+.header-right {
+  float: right;
+  margin-right: 25px;
+}
+nav a {
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+  font-size: 13px;
+  text-decoration: none;
+}
+a.header-links {
+  color: black;
+}
+img {
+  font-size: 13px;
+}
+#sign-in-btn {
+  color: white;
+  background-color: #4285f4;
+  border: none;
+  height: 30px;
+  width: 70px;
+  font-weight: bold;
+  border-radius: 2px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.clear {
+  clear: both;
+}
+#appicon {
+  vertical-align: middle;
+  opacity: 0.5;
+}
+#google {
+  height: 95px;
+  width: 272px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+.searchbar {
+  text-align: center;
+  padding-top: 20px;
+  margin-left: 60px;
+}
+#search {
+  font-size: 16px;
+  height: 38px;
+  width: 460px;
+  border-radius: 25px;
+  padding: 3px;
+  border: 1px solid lightgray;
+  padding-left: 50px;
+}
+#mag {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 10px;
+  right: 440px;
+}
+.searchbar {
+  text-align: center;
+  padding-top: 20px;
+  margin-left: 60px;
+}
+#search:hover {
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+#microphone {
+  position: relative;
+  top: 5px;
+  right: 74px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.btn-container {
+  text-align: center;
+  padding-top: 30px;
+}
+#btn1 {
+  height: 36px;
+  width: 120px;
+  border: hidden;
+  border-radius: 4px;
+  color: #5f6368;
+  margin-right: 8px;
+}
+#btn1:hover {
+  border: 1px solid #49454521;
+  color: black;
+  cursor: pointer;
+}
+
+#btn2 {
+  height: 36px;
+  width: 140px;
+  border: hidden;
+  border-radius: 4px;
+  color: #5f6368;
+}
+#btn2:hover {
+  border: 1px solid #49454521;
+  color: black;
+  cursor: pointer;
+}
+
+#language {
+  text-align: center;
+  margin-top: 20px;
+  font-size: small;
+}
+p {
+  display: block;
+  color: #393b3d;
+}
+footer {
+  width: 100%;
+  padding-left: 5px;
+  background-color: #f2f2f2;
+  line-height: 40px;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+}
+.country {
+  border-bottom: 1px solid #e4e4e4;
+  margin-left: 13px;
+  color: #5f6368;
+}
+
+.footer-left {
+  float: left;
+}
+.footer-right {
+  float: right;
+  margin-right: 25px;
+}
+
+.footer-links {
+  color: #5f6368;
+}
+.footer-links:hover {
+  text-decoration: underline;
+}
+#appicon:hover {
+  opacity: 100%;
+}
+.header-links:hover {
+  text-decoration: underline;
+}
